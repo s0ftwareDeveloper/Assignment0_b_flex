@@ -10,7 +10,7 @@ It looks like this when you run it.
 
 Add borders of your own choosing to make the nested flex containers stand out in your own mind, maybe something like this?
 
-![Image description](/images/flexbox_img.png)
+![Image description](/images/flexbox_img.PNG)
 
 ## How to consume this project?
 
