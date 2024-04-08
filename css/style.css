@@ -21,26 +21,27 @@ body {
     flex: 1;
     text-align: center;
     padding: 10px;
+    border: 3px solid rgb(122, 181, 230);
 }
 
 .menu-item:nth-child(1) {
-    background-color: red;
+    background-color: rgb(2, 8, 43);
 }
 
 .menu-item:nth-child(2) {
-    background-color: green;
+    background-color: rgb(10, 24, 102);
 }
 
 .menu-item:nth-child(3) {
-    background-color: blue;
+    background-color: rgb(19, 37, 136);
 }
 
 .menu-item:nth-child(4) {
-    background-color: orange;
+    background-color: rgb(40, 62, 184);
 }
 
 .menu-item:nth-child(5) {
-    background-color: purple;
+    background-color: rgb(69, 92, 219);
 }
 
 /* Content */
@@ -52,37 +53,61 @@ body {
     flex: 1;
     display: flex;
     flex-direction: column;
+    border: 3px solid rgb(9, 48, 99);
 }
 
 .left-column {
-    background-color: teal;
+    background-color: rgb(189, 217, 236)
 }
 
-.right-column {
+/*.right-column {
     background-color: pink;
 }
+*/
 
 .right-column-item {
     flex: 1;
     text-align: center;
     padding: 10px;
+    border: 3px solid rgb(45, 72, 88);
 }
 
 /* Different background colors for right column items */
 .right-column-item:nth-child(1) {
-    background-color: cyan;
+    background-color: rgb(161, 197, 223);
 }
 
 .right-column-item:nth-child(2) {
-    background-color: lime;
+    background-color: rgb(120, 172, 209);
+}
+
+.right-column-item:nth-child(3) {
+    background-color: rgb(85, 142, 184);
+}
+
+.right-column-item:nth-child(4) {
+    background-color: rgb(53, 112, 155);
+}
+
+.right-column-item:nth-child(5) {
+    background-color: rgb(30, 83, 121);
+}
+
+.right-column-item:nth-child(6) {
+    background-color: rgb(14, 58, 90);
+}
+
+.right-column-item:nth-child(7) {
+    background-color: rgb(4, 32, 53);
 }
 
 /* Add different colors for each row as needed */
 
 /* Footer */
 .footer {
-    background-color: lightcoral;
+    background-color: rgb(36, 97, 105);
     gap: 15px;
+    border: 3px solid rgb(186, 226, 231);
 }
 
 .footer-column {
@@ -92,13 +117,13 @@ body {
 }
 
 .footer-column:nth-child(1) {
-    background-color: brown;
+    background-color: rgb(92, 180, 192);
 }
 
 .footer-column:nth-child(2) {
-    background-color: yellow;
+    background-color: rgb(43, 134, 146);
 }
 
 .footer-column:nth-child(3) {
-    background-color: violet;
+    background-color: rgb(10, 76, 85);
 }
