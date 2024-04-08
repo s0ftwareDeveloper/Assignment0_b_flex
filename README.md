@@ -8,7 +8,7 @@ It looks like this when you run it.
 
 ## Assignment
 
-Add borders of your own choosing to make the nested flex containers stand out in your own mind, maybe something like this?
+Added borders and changed the colors
 
 ![Image description](/images/flexbox_img.PNG)
 
